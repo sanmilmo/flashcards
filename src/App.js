@@ -1,11 +1,12 @@
 import React, { useState} from 'react';
-import FlashCardList from './FlashCardList';
+import FlashcardList from './FlashcardList';
+import './app.css'
 
 
 function App() {
   const [flashcards, setFlashcards] = useState(SAMPLE_FLASHCARDS)
   return (
-    <FlashCardList flashcards={flashcards}/>
+    <FlashcardList flashcards={flashcards}/>
   );
 }
 
